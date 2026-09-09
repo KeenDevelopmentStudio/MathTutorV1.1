@@ -1,10 +1,20 @@
+/********************************************
+Program: MathTutorV1
+Programmers: Jacob Karsky
+Date: 2026.09.13
+Github Repo:
+Description:
+*********************************************/
+
 #include <iostream>
 using namespace std;
 
 int main() {
 
-    cout << endl;
+    string userName;
+
     cout << "************************************************************" << endl;
+
     cout << R"(
      ____  _ _ _         ____  _                 _
     / ___|(_) | |_   _  / ___|(_)_ __ ___  _ __ | | ___
@@ -15,19 +25,26 @@ int main() {
     |  \/  | __ _| |_| |__   |_   _|   _| |_ ___  _ __
     | |\/| |/ _` | __| '_ \    | || | | | __/ _ \| '__|
     | |  | | (_| | |_| | | |   | || |_| | || (_) | |
-    |_|  |_|\__,_|\__|_| |_|   |_| \__,_|\__\___/|_|    )"  << endl;
-    cout << endl;
+    |_|  |_|\__,_|\__|_| |_|   |_| \__,_|\__\___/|_|    )"  << endl << endl;
+
     cout << "************************************************************" << endl;
+
     cout << "         Welcome to the Silly Simply Math Tutor V1" << endl;
-    cout << "************************************************************" << endl;
-    cout << endl;
+
+    cout << "************************************************************" << endl << endl;
+
     cout << "Here are some fun facts about math:" << endl;
     cout << "     - Greek artists used math to properly size their sculptures." << endl;
     cout << "     - Computers hate dividing by zero and it will often kill the program." << endl;
-    cout << "     - The current number system used in english is base 10, hexidecimal uses base 16." << endl;
-    cout << "     - Most complex math equations have a formula that is easily remembered to get an answer." << endl;
-    cout << endl;
+    cout << "     - The current number system used in english is base 10, hexadecimal uses base 16." << endl;
+    cout << "     - Most complex math equations can be solved easily by using a formula." << endl << endl;
+
     cout << "************************************************************" << endl << endl;
+
+    cout << "What is your name?";
+    cin >> userName;
+    cout << "Hello " << userName << "!" << endl;
+    cout << "Welcome to the Silly Simple Math Tutor V1" << endl;
 
     return 0;
 }
