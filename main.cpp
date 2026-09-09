@@ -1,8 +1,8 @@
 /********************************************
 Program: MathTutorV1
-Programmers: Jacob Karsky
+Programmers: Jacob Karsky, Treven Keen
 Date: 2026.09.13
-Github Repo:
+Github Repo: https://github.com/KeenDevelopmentStudio/MathTutorV1.1
 Description:
 *********************************************/
 
