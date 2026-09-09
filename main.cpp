@@ -1,3 +1,11 @@
+/********************************************
+Program: MathTutorV1
+Programmers: Jacob Karsky
+Date: 2026.09.13
+Github Repo:
+Description:
+*********************************************/
+
 #include <iostream>
 using namespace std;
 
