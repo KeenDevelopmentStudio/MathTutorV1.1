@@ -19,7 +19,7 @@ This is a Silly Simple Math Tutor for young children.
 ## Maintainers
 [@JacobKarsky](https://github.com/JacobKarsky) Jacob Karsky
 
-[@princess](https://github.com/dejohns2) Princess Debbie
+[@KeenDevelopmentStudio](https://github.com/KeenDevelopmentStudio) Treven Keen
 
 
 ## New Concepts Used
@@ -32,35 +32,44 @@ This is a Silly Simple Math Tutor for young children.
 
 ## Console Output Testing Example
 ```
-***********************************************************
-      __  __       _   _       _____      _
-     |  \/  | __ _| |_| |__   |_   _|   _| |_ ___  _ __
-     | |\/| |/ _` | __| '_ \    | || | | | __/ _ \| '__|
-     | |  | | (_| | |_| | | |   | || |_| | || (_) | |
-     |_|  |_|\__,_|\__|_| |_|   |_| \__,_|\__\___/|_|
+C:\Users\Keen\Desktop\CSC150\MathTutorV1\cmake-build-debug\MathTutorV1.exe
+************************************************************
 
-***********************************************************
-*       Welcome to the Silly Simple Math Tutor            *
-***********************************************************
+     ____  _ _ _         ____  _                 _
+    / ___|(_) | |_   _  / ___|(_)_ __ ___  _ __ | | ___
+    \___ \| | | | | | | \___ \| | '_ ` _ \| '_ \| |/ _ \
+     ___) | | | | |_| |  ___) | | | | | | | |_) | |  __/
+    |____/|_|_|_|\__, | |____/|_|_| |_| |_| .__/|_|\___|
+     __  __      |___/_       _____      _|_|
+    |  \/  | __ _| |_| |__   |_   _|   _| |_ ___  _ __
+    | |\/| |/ _` | __| '_ \    | || | | | __/ _ \| '__|
+    | |  | | (_| | |_| | | |   | || |_| | || (_) | |
+    |_|  |_|\__,_|\__|_| |_|   |_| \__,_|\__\___/|_|    
 
-Fun math facts:
+************************************************************
+         Welcome to the Silly Simply Math Tutor V1
+************************************************************
 
-        * Math teachers have problems.
-        * Math is the only subject that counts.
-        * If it seems easy, you're doing it wrong.
-        * It's all fun and games until someone divides by zero!
+Here are some fun facts about math:
+     - Greek artists used math to properly size their sculptures.
+     - Computers hate dividing by zero and it will often kill the program.
+     - The current number system used in english is base 10, hexadecimal uses base 16.
+     - Most complex math equations can be solved easily by using a formula.
 
-***********************************************************
+************************************************************
 
-What is your name? Debbie
-Welcome Debbie to the Silly Simply Math Tutor!
+What is your name?
+Keen
 
-What does 2 + 3 = 5
+Hello Keen!
+Welcome to the Silly Simple Math Tutor V1!
+What is the answer to 2 + 3?
+5
 
-Sorry, this is all the program does for the moment.
-Version 2 is coming soon...
-End of program.
+This is all the program does at the moment.
+Version 2 is coming soon!
 
+Process finished with exit code 0
 ```
 
 [Back to Top](#math-tutor-v1)
