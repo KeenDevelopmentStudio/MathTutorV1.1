@@ -17,7 +17,8 @@ This is a Silly Simple Math Tutor for young children.
 
 
 ## Maintainers
-[@dejohns2](https://github.com/dejohns2) Debbie Johnson  
+[@JacobKarsky](https://github.com/JacobKarsky) Jacob Karsky
+
 [@princess](https://github.com/dejohns2) Princess Debbie
 
 
