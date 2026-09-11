@@ -11,7 +11,8 @@ using namespace std;
 
 int main() {
 
-    string userName;
+    string userName = "unkown";
+    int userAnswer = 0;
 
     cout << "************************************************************" << endl;
 
@@ -41,10 +42,16 @@ int main() {
 
     cout << "************************************************************" << endl << endl;
 
-    cout << "What is your name?";
+    cout << "What is your name? ";
     cin >> userName;
     cout << "Hello " << userName << "!" << endl;
     cout << "Welcome to the Silly Simple Math Tutor V1" << endl;
+    cout << "What is 2 + 3 = ";
+    cin >> userAnswer;
+    cout << endl;
+
+    cout << "This is all the program does at the moment." << endl;
+    cout << "Version 2 is coming soon" << endl;
 
     return 0;
 }
