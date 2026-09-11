@@ -9,7 +9,7 @@
 ## Summary
 This is a Silly Simple Math Tutor for young children. 
 - Display the program header
-- Tells a few jokes
+- Tells a few fun facts
 - Gets the user's name and welcomes to the user to the game
 - Displays only one simple math question
 - Gets the user's answer
