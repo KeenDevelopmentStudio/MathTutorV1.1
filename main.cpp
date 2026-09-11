@@ -3,7 +3,11 @@ Program: MathTutorV1
 Programmers: Jacob Karsky, Treven Keen
 Date: 2026.09.13
 Github Repo: https://github.com/KeenDevelopmentStudio/MathTutorV1.1
+
 Description:
+   This program asks the user what their name is and welcomes them!
+   It will also tell them some math fun facts and present them with some cool ASCII art.
+   They will be asked a math question which will be checked with an if statement in a later mathTutor.
 *********************************************/
 
 #include <iostream>
@@ -11,11 +15,13 @@ using namespace std;
 
 int main() {
 
-    string userName = "unkown";
+    // Initializing Variables
+    string userName = "placeholder";
     int userAnswer = 0;
 
     cout << "************************************************************" << endl;
 
+    // ASCII Art
     cout << R"(
      ____  _ _ _         ____  _                 _
     / ___|(_) | |_   _  / ___|(_)_ __ ___  _ __ | | ___
@@ -34,6 +40,7 @@ int main() {
 
     cout << "************************************************************" << endl << endl;
 
+    // Random fun math facts
     cout << "Here are some fun facts about math:" << endl;
     cout << "     - Greek artists used math to properly size their sculptures." << endl;
     cout << "     - Computers hate dividing by zero and it will often kill the program." << endl;
@@ -42,16 +49,23 @@ int main() {
 
     cout << "************************************************************" << endl << endl;
 
-    cout << "What is your name? ";
+    // Name user input
+    cout << "What is your name?" << endl;
     cin >> userName;
+    cout << endl;
+
+    // Repeat name with welcome
     cout << "Hello " << userName << "!" << endl;
-    cout << "Welcome to the Silly Simple Math Tutor V1" << endl;
-    cout << "What is 2 + 3 = ";
+    cout << "Welcome to the Silly Simple Math Tutor V1!" << endl;
+
+    // Ask math question & user math input
+    cout << "What is the answer to 2 + 3?" << endl;
     cin >> userAnswer;
     cout << endl;
 
+    // Explain end of program
     cout << "This is all the program does at the moment." << endl;
-    cout << "Version 2 is coming soon" << endl;
+    cout << "Version 2 is coming soon!" << endl;
 
     return 0;
 }
