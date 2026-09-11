@@ -10,7 +10,10 @@ Description:
    They will be asked a math question which will be checked with an if statement in a later mathTutor.
 *********************************************/
 
+// Allows the use of ConsoleIn and ConsoleOut.
 #include <iostream>
+
+// Declares the namespace for this program.
 using namespace std;
 
 int main() {
