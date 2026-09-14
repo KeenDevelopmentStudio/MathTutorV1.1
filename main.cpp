@@ -62,7 +62,7 @@ int main() {
     cout << "Welcome to the Silly Simple Math Tutor V1!" << endl;
 
     // Ask math question & user math input
-    cout << "What is the answer to 2 + 3?" << endl;
+    cout << "What is the answer to " << leftNum << " + " << rightNum << "?" << endl;
     cin >> userAnswer;
     cout << endl;
 
