@@ -20,6 +20,8 @@ int main() {
 
     // Initializing Variables
     string userName = "placeholder";
+    int leftNum = 2;
+    int rightNum = 3;
     int userAnswer = 0;
 
     cout << "************************************************************" << endl;
